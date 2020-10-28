@@ -4,26 +4,26 @@ import java.util.List;
 
 public class Character
 {
-    private int charId;
+    private Integer charId;
     private String name;
     private String birthday;
     private List<String> occupation;
     private String img;
     private String status;
     private String nickname;
-    private List<int> appearance;
+    private List<Integer> appearance;
     private String portrayed;
     private String category;
-    private List<int> betterCallSaulAppearance;
+    private List<Integer> betterCallSaulAppearance;
 
-    public void setChar_id(int charId)
+    public void setChar_id(Integer charId)
     {
         this.charId = charId;
     }
 
-    public int getCharId()
+    public Integer getCharId()
     {
-        return this.char_id;
+        return this.charId;
     }
 
     public void setName(String name)
@@ -86,12 +86,12 @@ public class Character
         return this.nickname;
     }
 
-    public void setAppearance(List<int> appearance)
+    public void setAppearance(List<Integer> appearance)
     {
         this.appearance = appearance;
     }
 
-    public List<int> getAppearance()
+    public List<Integer> getAppearance()
     {
         return this.appearance;
     }
@@ -116,12 +116,12 @@ public class Character
         return this.category;
     }
 
-    public void setBetter_call_saul_appearance(List<int> betterCallSaulAppearance)
+    public void setBetterCallSaulAppearance(List<Integer> betterCallSaulAppearance)
     {
         this.betterCallSaulAppearance = betterCallSaulAppearance;
     }
 
-    public List<int> getBetterCallSaulAppearance()
+    public List<Integer> getBetterCallSaulAppearance()
     {
         return this.betterCallSaulAppearance;
     }
