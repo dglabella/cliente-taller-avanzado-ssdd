@@ -6,9 +6,11 @@ public interface IService<Entity>
 {
     List<Entity> getAll();
 
-    Entity getById();
+    Entity getById(Integer id);
 
     Entity insert(Entity entity);
 
-    Entity 
+    Entity update(Entity entity);
+
+    Entity delete(Integer id);
 }

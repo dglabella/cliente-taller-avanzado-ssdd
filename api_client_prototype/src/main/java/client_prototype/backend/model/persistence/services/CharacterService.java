@@ -1,11 +1,15 @@
 package client_prototype.backend.model.persistence.services;
 
 import java.util.List;
+import client_prototype.backend.model.entities.Character;
+import client_prototype.backend.model.interfaces.IService;
 
-public class CharacterService
+public class CharacterService implements IService<Character>
 {
-    protected List<Character> getAll()
+    public List<Character> getAll()
     {
-        return null;
-    }   
+        List<Character> characters = null;
+
+        return characters;
+    } 
 }
